@@ -11,7 +11,8 @@
 </head>
 <body>
     <p>
-        <h2>INGRESO DE DATOS DEL ESTUDIANTE</h2>
+        <center><h1>INGRESO DE DATOS DEL ESTUDIANTE</h1></center>
+        <hr class="border border-primary border-3 opacity-75">
     </p>
     <form action="EstudianteController.php" method="post">
         <p>
@@ -38,10 +39,9 @@
             <input type="submit" value="Guardar Registro">
         </p>
     </form>
-    <hr>
-    <h3>LISTADO DE ESTUDIANTES</h3>
-    <hr>
-
+    <hr class="border border-primary border-3 opacity-75">
+    <center><h3>LISTADO DE ESTUDIANTES</h3></center>
+    <hr class="border border-primary border-2 opacity-75">
     <table class="table table-dark table-striped-columns">
         <th>NOMBRE</th>
         <th>APELLIDOS</th>
@@ -65,7 +65,6 @@
           </tr>
           
        <?php } ?>
-    
     </table>
 
 </body>
